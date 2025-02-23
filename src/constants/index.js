@@ -26,6 +26,7 @@ import {
   evo,
   horizon,
   medilab,
+  coffo,
 } from "../assets";
 
 export const navLinks = [
@@ -128,7 +129,8 @@ const projects = [
   {
     name: "Medical Project",
     description:
-      " Developed a responsive and user-friendly medical web app using React.js and Bootstrap, focusing on clean UI, smooth navigation, state management, and real-time API integration.",
+    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+
     tags: [
       {
         name: "react",
@@ -144,25 +146,30 @@ const projects = [
     source_code_link: "https://ahmed-mo7ammed.github.io/medicalRebo/",
   },
   {
-    name: "medilab",
+    name: "coffo",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    " Coffo is a modern coffee shop website built with React, Bootstrap, Framer Motion, and Formik. It offers a smooth and interactive user experience with stylish animations, responsive design, and seamless form handling for customer inquiries ",
+
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Framer Motion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "formik",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: coffo,
+    source_code_link: "https://ahmed-mo7ammed.github.io/coffo/",
   },
   {
     name: "Trip Guide",

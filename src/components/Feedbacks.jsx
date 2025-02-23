@@ -47,7 +47,7 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
-    const whatsappUrl = `https://wa.me/00201062364985?text=مرحبا اريد التواصل معك للعمل`;
+    const whatsappUrl = `"https://wa.me/201062364098"text=مرحبا اريد التواصل معك للعمل`;
   
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>

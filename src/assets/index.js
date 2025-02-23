@@ -31,8 +31,10 @@ import evo from "./company/evo.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import coffo from "./coffo.png";
 
 export {
+  coffo,
   medilab,
   evo,
   horizon,
