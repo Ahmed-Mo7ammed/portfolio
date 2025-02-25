@@ -43,7 +43,7 @@ const Feedbacks = () => {
             <FaGithub size={24} />
           </a>
 
-          <a href="https://wa.me/201062364098" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/201062364985" target="_blank" rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-green-500 text-white hover:bg-green-700 transition-all duration-300 shadow-lg">
             <FaWhatsapp size={24} />
           </a>
