@@ -15,6 +15,7 @@ import {
   horizon,
   medilab,
   coffo,
+  meta,
 } from "../assets";
 
 export const navLinks = [
@@ -80,16 +81,13 @@ const technologies = [
 const experiences = [
 
   {
-    title: "Front-End Developer",
+    title: " Front-End Developer",
     company_name: "horizon-dt",
     icon: horizon,
     iconBg: "#E6DEDD",
-    date: "August 2024 - Current",
+    date: "August 2024 - jan-2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+   "Internship"
     ],
   },
   {
@@ -97,15 +95,23 @@ const experiences = [
     company_name: "EvoTech",
     icon: evo,
     iconBg: "#383E56",
-    date: "Jan 2024 - August 2024",
+    date: "April 2024 - August 2024",
     points: [
-      " Designing and maintaining a CRM project while continuously improving its performance.",
-      " Adding new features based on business needs and user requirements.",
-      " Enhancing user experience by developing interactive and user-friendly interfaces.",
-   "Ensuring integration with other systems and improving operational efficiency",
+     "Internship"
     ],
 
   },
+  {
+    title: "Front-End Developer",
+    company_name: "Freelancing",
+    icon: meta,
+    iconBg: "#383E56",
+    points: [
+     "Freelancing"
+    ],
+
+  },
+ 
  
 ];
 
