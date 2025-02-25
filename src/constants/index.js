@@ -1,8 +1,5 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+
   javascript,
   typescript,
   html,
@@ -10,19 +7,10 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
+
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  toDo,
+  
   evo,
   horizon,
   medilab,
@@ -172,25 +160,25 @@ const projects = [
     source_code_link: "https://ahmed-mo7ammed.github.io/coffo/",
   },
   {
-    name: "Trip Guide",
+    name: "To Do List",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+"To Do List",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind Css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Framer Motion",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: toDo,
+    source_code_link: "https://ahmed-mo7ammed.github.io/todolist/",
   },
 ];
 

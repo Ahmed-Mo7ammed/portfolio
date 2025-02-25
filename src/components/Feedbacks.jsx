@@ -1,82 +1,72 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { FaEnvelope, FaFacebook, FaGithub, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+import { fadeIn } from "../utils/motion";
 import { testimonials } from "../constants";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-const FeedbackCard = ({
-  index,
-  testimonial,
-  name,
-  designation,
-  company,
-  image,
-}) => (
+const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className="bg-gray-800 p-8 rounded-2xl shadow-lg"
   >
-    <p className='text-white font-black text-[48px]'>"</p>
-
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
-        </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+    <p className="text-white text-4xl font-bold">“</p>
+    <p className="text-gray-300 text-lg mt-2">{testimonial}</p>
+    <div className="mt-6 flex items-center gap-4">
+      <img src={image} alt={name} className="w-12 h-12 rounded-full object-cover" />
+      <div>
+        <p className="text-white font-semibold text-lg">@{name}</p>
+        <p className="text-gray-400 text-sm">{designation} at {company}</p>
       </div>
     </div>
   </motion.div>
 );
 
 const Feedbacks = () => {
-    const whatsappUrl = `"https://wa.me/201062364098"text=مرحبا اريد التواصل معك للعمل`;
-  
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div
-        className={`bg-tertiary  rounded-2xl ${styles.padding} min-h-[300px]`}
-      >
-      <a
-  href={whatsappUrl}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center justify-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition text-lg font-semibold"
->
-  <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-  <span>Get in touch with me now!</span>
-</a>
-<div> <br /></div>
-<a
-        href="tel:+201062364985"
-        className="flex items-center justify-center gap-2 bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition text-lg font-semibold"
-      >
-        <FontAwesomeIcon icon={faPhone} size="2x" />
-        <span>Call me now!</span>
-        <p>002-01062364985</p>
-      </a>
-        <motion.div variants={textVariant()}>
-   
-        </motion.div>
+    <div className="mt-12 bg-gray-900 p-10 rounded-xl shadow-xl">
+      <div className="flex flex-col items-center gap-6">
+        
+        {/* روابط السوشيال ميديا */}
+        <div className="flex justify-center gap-4 mb-6">
+          <a href="https://www.facebook.com/profile.php?id=100008232544076" target="_blank" rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white hover:bg-blue-800 transition-all duration-300 shadow-lg">
+            <FaFacebook size={24} />
+          </a>
+
+          <a href="mailto:dev.ahmedmohammed95@gmail.com" className="w-12 h-12 flex items-center justify-center rounded-full bg-red-500 text-white hover:bg-red-700 transition-all duration-300 shadow-lg">
+            <FiMail size={24} />
+          </a>
+
+          <a href="https://github.com/Ahmed-Mo7ammed" target="_blank" rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-gray-600 transition-all duration-300 shadow-lg">
+            <FaGithub size={24} />
+          </a>
+
+          <a href="https://wa.me/201062364098" target="_blank" rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-green-500 text-white hover:bg-green-700 transition-all duration-300 shadow-lg">
+            <FaWhatsapp size={24} />
+          </a>
+
+          <a href="tel:+201062364985"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-500 text-white hover:bg-blue-700 transition-all duration-300 shadow-lg">
+            <FaPhone size={24} />
+          </a>
+        </div>
+
+        {/* معلومات الاتصال */}
+        <div className="flex flex-col items-center gap-3 text-white">
+          <div className="flex items-center gap-2">
+            <FaPhone /> <span>+2-01062364985</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaEnvelope /> <span>dev.ahmedmohammed95@gmail.com</span>
+          </div>
+        </div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+
+      {/* بطاقات التقييم */}
+      <div className="mt-10 grid md:grid-cols-2 gap-8">
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
@@ -85,4 +75,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default Feedbacks;
