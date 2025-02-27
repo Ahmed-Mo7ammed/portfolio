@@ -10,7 +10,7 @@ import {
 
   git,
   toDo,
-  
+  evocommerec,
   evo,
   horizon,
   medilab,
@@ -120,6 +120,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "E-commerce Project",
+    description:
+    "A modern E-commerce platform built with React, Radix UI, and Bootstrap, featuring a responsive design, dynamic shopping cart, and seamless user experience",
+
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reduxe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: evocommerec,
+    source_code_link: "https://commerc-teal.vercel.app/",
+  },
   {
     name: "Medical Project",
     description:

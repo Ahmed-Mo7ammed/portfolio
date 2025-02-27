@@ -33,8 +33,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import coffo from "./coffo.png";
 import toDo from "./todolist.png";
+import evocommerec from "./evocommerc.png";
 
 export {
+  evocommerec,
   toDo,
   coffo,
   medilab,
