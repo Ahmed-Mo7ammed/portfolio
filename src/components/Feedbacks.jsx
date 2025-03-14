@@ -54,15 +54,8 @@ const Feedbacks = () => {
           </a>
         </div>
 
-        {/* معلومات الاتصال */}
-        <div className="flex flex-col items-center gap-3 text-white">
-          <div className="flex items-center gap-2">
-            <FaPhone /> <span>+2-01062364985</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <FaEnvelope /> <span>dev.ahmedmohammed95@gmail.com</span>
-          </div>
-        </div>
+     
+        
       </div>
 
       {/* بطاقات التقييم */}

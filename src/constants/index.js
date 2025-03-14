@@ -123,7 +123,7 @@ const projects = [
   {
     name: "E-commerce Project",
     description:
-    "A modern E-commerce platform built with React, Radix UI, and Bootstrap, featuring a responsive design, dynamic shopping cart, and seamless user experience",
+    "E-commerce platform built with React, Radix UI, and Bootstrap",
 
     tags: [
       {
@@ -146,7 +146,7 @@ const projects = [
   {
     name: "Medical Project",
     description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    " Medical Project",
 
     tags: [
       {
@@ -165,7 +165,7 @@ const projects = [
   {
     name: "Restaurant-01",
     description:
-    " Resto is a modern restaurant website built with  Bootstrap, wow.js,  It offers a smooth and interactive user experience with stylish animations, responsive design, and seamless form handling for reservations and customer inquiries ",
+    "restaurant website built with  Bootstrap, wow.js",
 
     tags: [
     

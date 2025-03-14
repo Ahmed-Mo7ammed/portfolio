@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div >
       <Tilt
         options={{
           max: 45,
@@ -30,6 +30,7 @@ const ProjectCard = ({
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            loading="lazy"
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -41,6 +42,8 @@ const ProjectCard = ({
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
+                loading="lazy"
+
               />
             </div>
           </div>
@@ -62,7 +65,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
