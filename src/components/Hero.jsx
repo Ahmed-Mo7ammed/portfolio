@@ -19,7 +19,7 @@ const backgroundVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { duration: 3, ease: "easeInOut" },
+    transition: { duration: 3, ease: "linear" },
   },
 };
 
@@ -28,7 +28,7 @@ const gradientTextAnimation = {
   initial: { backgroundPosition: "0% 30%" },
   animate: {
     backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
-    transition: { duration: 8, repeat: Infinity, ease: "linear" },
+    transition: { duration: 5, repeat: Infinity, ease: "linear" },
   },
 };
 

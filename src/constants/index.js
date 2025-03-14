@@ -185,7 +185,7 @@ const projects = [
   {
     name: "coffo",
     description:
-    " Coffo is a modern coffee shop website built with React, Bootstrap, Framer Motion, and Formik. It offers a smooth and interactive user experience with stylish animations, responsive design, and seamless form handling for customer inquiries ",
+    " Coffo is a modern coffee shop website " ,
 
     tags: [
       {
@@ -208,7 +208,7 @@ const projects = [
     image: coffo,
     source_code_link: "https://ahmed-mo7ammed.github.io/coffo/",
   },
-  {
+   {
     name: "To Do List",
     description:
 "To Do List",
@@ -229,6 +229,9 @@ const projects = [
     image: toDo,
     source_code_link: "https://ahmed-mo7ammed.github.io/todolist/",
   },
+  
+  
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };
