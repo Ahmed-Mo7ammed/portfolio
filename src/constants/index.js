@@ -7,7 +7,7 @@ import {
   reactjs,
   redux,
   tailwind,
-
+Restaurant01,
   git,
   toDo,
   evocommerec,
@@ -161,6 +161,26 @@ const projects = [
     ],
     image: medilab,
     source_code_link: "https://ahmed-mo7ammed.github.io/medicalRebo/",
+  },
+  {
+    name: "Restaurant-01",
+    description:
+    " Resto is a modern restaurant website built with  Bootstrap, wow.js,  It offers a smooth and interactive user experience with stylish animations, responsive design, and seamless form handling for reservations and customer inquiries ",
+
+    tags: [
+    
+     
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "wow.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Restaurant01,
+    source_code_link: "https://ahmed-mo7ammed.github.io/Restaurant-01/",
   },
   {
     name: "coffo",
