@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "../assets/pexels-tact-tm-6002327.jpg";
+// import heroImage from "../assets/pexels-tact-tm-6002327.jpg";
 import { styles } from "../styles";
 
 const text = "Hi, I'm Ahmed Mohammed";
@@ -57,11 +57,7 @@ const Hero = () => {
         animate="visible"
         variants={backgroundVariants}
       >
-        <img
-          src={heroImage}
-          alt="Hero Background"
-          className="w-full h-full object-cover opacity-50"
-        />
+       
       </motion.div>
 
       {/* المحتوى */}

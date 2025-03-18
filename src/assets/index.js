@@ -33,8 +33,10 @@ import coffo from "./coffo.png";
 import toDo from "./todolist.png";
 import evocommerec from "./evocommerc.png";
 import Restaurant01 from "./Restaurant-01.jpg"
+import socialApp01 from "./socialApp01.jpg"
 
 export {
+  socialApp01,
   Restaurant01,
   evocommerec,
   toDo,

@@ -1,5 +1,5 @@
 import {
-
+  socialApp01,
   javascript,
   typescript,
   html,
@@ -120,6 +120,29 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Social App",
+    description:
+    "Social App platform built with Next js, Radix , and tailwind Css",
+
+    tags: [
+      {
+        name: "next Js",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reduxe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: socialApp01,
+    source_code_link: "https://social001-4ya3jwb64-ahmed-fiesals-projects.vercel.app/",
+  },
   {
     name: "E-commerce Project",
     description:
