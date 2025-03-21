@@ -80,22 +80,13 @@ const technologies = [
 
 const experiences = [
 
-  {
-    title: " Front-End Developer",
-    company_name: "horizon-dt",
-    icon: horizon,
-    iconBg: "#E6DEDD",
-    date: "August 2024 - jan-2025",
-    points: [
-   "Internship"
-    ],
-  },
+
   {
     title: "Front-End Developer",
     company_name: "EvoTech",
     icon: evo,
     iconBg: "#383E56",
-    date: "April 2024 - August 2024",
+    date: "",
     points: [
      "Internship"
     ],
