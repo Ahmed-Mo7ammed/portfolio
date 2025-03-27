@@ -112,6 +112,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "القرأن الكريم ",
+    description:
+    "quraan karem  built with Next js, Radix , and tailwind Css",
+
+    tags: [
+      {
+        name: "next Js",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reduxe",
+        color: "green-text-gradient",
+      },
+    ],
+    image: socialApp01,
+    source_code_link: "https://quraan-gjywljzga-ahmed-fiesals-projects.vercel.app/",
+  },
+  {
     name: "Social App",
     description:
     "Social App platform built with Next js, Radix , and tailwind Css",
@@ -132,7 +155,7 @@ const projects = [
       },
     ],
     image: socialApp01,
-    source_code_link: "https://social001-16du4stub-ahmed-fiesals-projects.vercel.app/",
+    source_code_link: "https://social001-8p637dddr-ahmed-fiesals-projects.vercel.app/",
   },
   {
     name: "E-commerce Project",
