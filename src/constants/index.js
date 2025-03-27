@@ -16,6 +16,7 @@ Restaurant01,
   medilab,
   coffo,
   meta,
+  quraan,
 } from "../assets";
 
 export const navLinks = [
@@ -131,7 +132,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: socialApp01,
+    image: quraan ,
     source_code_link: "https://quraan-gjywljzga-ahmed-fiesals-projects.vercel.app/",
   },
   {
